@@ -1,0 +1,23 @@
+:root {
+  /* colours */
+  --dark-green: #5eb998;
+  --mid-green: #6fd3af;
+  --light-green: #88ddbf;
+  --dark-grey: #919191;
+  --white: #ffffff;
+
+  /* typography */
+  --heading-alpha: 64px;
+  --heading-bravo: 24px;
+  --heading-charlie: 36px;
+  --standard: 16px;
+
+  /* spacing */
+
+  --spacing-xl: 40px;
+  --spacing-lg: 30px;
+  --spacing-md: 20px;
+  --spacing-sm: 10px;
+  --spacing-xs: 5px;
+  --font-spacing: 12px;
+}

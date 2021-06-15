@@ -1,0 +1,13 @@
+@font-face {
+  font-family: cabin;
+  src: url(../public/assets/fonts/Cabin-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: nunito;
+  src: url(../public/assets/fonts/Nunito-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: nunito-bold;
+  src: url(../public/assets/fonts/Nunito-ExtraBold.ttf) format('truetype');
+}
