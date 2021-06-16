@@ -23,7 +23,16 @@
 }
 
 .social-circle:hover {
-  background-color: var(--light-green);
+  background-color: var(--white);
+}
+
+.icon {
+  color: var(--white);
+  fill: currentColor;
+}
+
+.icon:hover {
+  color: var(--dark-green);
 }
 
 .nav,

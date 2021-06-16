@@ -11,3 +11,18 @@
   font-family: nunito-bold;
   src: url(../public/assets/fonts/Nunito-ExtraBold.ttf) format('truetype');
 }
+
+.heading--alpha {
+  font-family: cabin, sans-serif;
+  font-size: var(--heading-alpha);
+  color: var(--white);
+  margin: 0px;
+}
+
+.heading--bravo {
+  font-family: cabin, sans-serif;
+  font-size: var(--heading-bravo);
+  color: var(--white);
+  line-height: 1.5;
+  margin: 0px;
+}
