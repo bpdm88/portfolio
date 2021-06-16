@@ -7,23 +7,42 @@
 
 .welcome-container {
   position: absolute;
-  top: 50px;
+  top: 30px;
   left: 150px;
 }
 
+.welcome-title {
+  padding-bottom: var(--spacing-lg);
+}
+
 .welcome-subsection {
-  margin-top: var(--spacing-lg);
+  padding-top: var(--spacing-xl);
+  padding-bottom: var(--spacing-xl);
   max-width: 900px;
 }
 
-.slide-in-title {
-  animation: slide-in 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.slide-in-subtitle {
+  animation: slide-in 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation-delay: 0.5s;
 }
 
-.slide-in-subtitle {
-  animation: slide-in 1.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.slide-in-btn {
+  animation: slide-in 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation-delay: 0.5s;
+  padding-top: var(--spacing-md);
+}
+
+.slide-left {
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100px);
+  }
 }
 
 @keyframes slide-in {
@@ -39,8 +58,9 @@
   }
 }
 
-.slide-in-welcome {
+.slide-in-title {
   animation: slide-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation-delay: 0.5s;
 }
 
 @keyframes slide-bottom {
@@ -49,7 +69,7 @@
     transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(50px);
-    transform: translateY(50px);
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
   }
 }

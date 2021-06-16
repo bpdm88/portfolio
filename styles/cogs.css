@@ -1,0 +1,43 @@
+.cog-1 {
+  position: absolute;
+  right: 90px;
+  bottom: 60px;
+}
+
+.cog-2 {
+  position: absolute;
+  right: 185px;
+  bottom: 125px;
+}
+
+.cog-3 {
+  position: absolute;
+  right: 200px;
+  bottom: 55px;
+}
+
+.rotate {
+  animation: rotation 25s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.reverse {
+  animation: rotation 28s infinite linear;
+}
+
+@keyframes reverse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

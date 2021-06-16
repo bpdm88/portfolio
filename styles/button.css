@@ -1,0 +1,42 @@
+.btn-primary {
+  margin-top: var(--spacing-lg);
+  padding-left: var(--spacing-xl);
+  padding-right: var(--spacing-xl);
+  padding-top: var(--spacing-md);
+  padding-bottom: var(--spacing-md);
+  background-color: var(--charcoal);
+  border: none;
+  border-radius: 8px;
+  font-family: nunito-bold;
+  font-size: 22px;
+  cursor: pointer;
+  color: var(--white);
+  position: relative;
+  z-index: 1;
+  transition: color 300ms ease-in-out;
+}
+
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: var(--white);
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 300ms ease-in-out;
+  border-radius: 8px;
+}
+
+.btn-primary:hover::before,
+.btn-primary:focus::before {
+  transform: scaleX(1);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  color: var(--dark-green);
+}
