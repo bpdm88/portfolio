@@ -2,14 +2,20 @@
   font-family: cabin;
   src: url(../public/assets/fonts/Cabin-Bold.ttf) format('truetype');
 }
-@font-face {
-  font-family: nunito;
-  src: url(../public/assets/fonts/Nunito-Regular.ttf) format('truetype');
-}
 
 @font-face {
   font-family: nunito-bold;
   src: url(../public/assets/fonts/Nunito-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: opensans-bold;
+  src: url(../public/assets/fonts/OpenSans-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: opensans;
+  src: url(../public/assets/fonts/OpenSans-Light.ttf) format('truetype');
 }
 
 .heading--alpha {
@@ -25,4 +31,40 @@
   color: var(--white);
   line-height: 1.5;
   margin: 0px;
+}
+
+.heading--charlie {
+  font-family: cabin, sans-serif;
+  font-size: var(--heading-charlie);
+  color: var(--charcoal);
+  line-height: 1.5;
+  margin: 0px;
+  font-weight: 600;
+}
+
+.heading--delta {
+  font-family: opensans, sans-serif;
+  font-size: var(--heading-delta);
+  color: var(--charcoal);
+  line-height: 1.5;
+  margin: 0px;
+  font-weight: 600;
+}
+
+.heading--echo {
+  font-family: cabin, sans-serif;
+  font-size: var(--heading-echo);
+  color: var(--dark-green);
+  line-height: 2;
+  margin: 0px;
+  font-weight: 700;
+}
+
+p {
+  font-family: opensans, sans-serif;
+  font-size: var(--heading-standard);
+  color: var(--charcoal);
+  line-height: 1.6;
+  margin: 0px;
+  font-weight: 600;
 }

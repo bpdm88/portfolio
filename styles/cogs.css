@@ -1,19 +1,19 @@
 .cog-1 {
   position: absolute;
-  right: 90px;
-  bottom: 60px;
+  right: 20px;
+  bottom: 20px;
 }
 
 .cog-2 {
   position: absolute;
-  right: 185px;
+  right: 55px;
   bottom: 125px;
 }
 
 .cog-3 {
   position: absolute;
-  right: 200px;
-  bottom: 55px;
+  right: 130px;
+  bottom: 70px;
 }
 
 .rotate {
@@ -39,5 +39,25 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .cog-1 {
+    position: absolute;
+    right: 90px;
+    bottom: 60px;
+  }
+
+  .cog-2 {
+    position: absolute;
+    right: 185px;
+    bottom: 125px;
+  }
+
+  .cog-3 {
+    position: absolute;
+    right: 200px;
+    bottom: 55px;
   }
 }

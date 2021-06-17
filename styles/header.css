@@ -14,16 +14,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
   cursor: pointer;
-  /* background-color: var(--light-green); */
   margin-right: var(--spacing-md);
-}
-
-.social-circle:hover {
-  background-color: var(--white);
 }
 
 .icon {
@@ -31,22 +23,23 @@
   fill: currentColor;
 }
 
-.icon:hover {
-  color: var(--dark-green);
-}
+@media only screen and (min-width: 768px) {
+  .social-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: var(--spacing-md);
+  }
 
-.nav,
-ul {
-  list-style-type: none;
-  display: flex;
-}
+  .social-circle:hover {
+    background-color: var(--white);
+  }
 
-.nav li {
-  padding-left: var(--spacing-md);
-  padding-right: var(--spacing-md);
-  font-family: cabin;
-  font-size: 20px;
-  color: var(--dark-grey);
-  cursor: pointer;
-  letter-spacing: 1px;
+  .icon:hover {
+    color: var(--dark-green);
+  }
 }

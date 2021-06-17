@@ -3,14 +3,16 @@
   --dark-green: #5eb998;
   --mid-green: #6fd3af;
   --light-green: #88ddbf;
-  --dark-grey: #919191;
+  --grey: #666666;
   --white: #ffffff;
   --charcoal: #444b55;
 
   /* typography */
   --heading-alpha: 44px;
   --heading-bravo: 22px;
-  --heading-charlie: 36px;
+  --heading-charlie: 30px;
+  --heading-delta: 20px;
+  --heading-echo: 24px;
   --standard: 16px;
 
   /* spacing */

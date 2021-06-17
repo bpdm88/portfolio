@@ -13,7 +13,7 @@
 }
 
 .welcome-title {
-  padding-bottom: var(--spacing-lg);
+  padding-bottom: var(--spacing-xl);
 }
 
 .welcome-subsection {
@@ -72,6 +72,13 @@
 @media only screen and (min-width: 1024px) {
   .welcome-container {
     top: 30px;
+    left: 150px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .welcome-container {
+    top: 80px;
     left: 150px;
   }
 }
