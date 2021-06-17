@@ -5,7 +5,7 @@ const Banner = () => {
     <div className="banner">
       <div className="welcome-container">
         <div className="welcome-title">
-          <h1 className="heading--alpha slide-in-title">Hello I'm Ben</h1>
+          <h1 className="heading--alpha slide-in-title">Hello I'm Ben.</h1>
         </div>
         <div className="welcome-subsection">
           <p className="slide-in-subtitle heading--bravo">

@@ -8,8 +8,8 @@
   --charcoal: #444b55;
 
   /* typography */
-  --heading-alpha: 84px;
-  --heading-bravo: 36px;
+  --heading-alpha: 44px;
+  --heading-bravo: 22px;
   --heading-charlie: 36px;
   --standard: 16px;
 
@@ -21,4 +21,11 @@
   --spacing-sm: 10px;
   --spacing-xs: 5px;
   --font-spacing: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  :root {
+    --heading-alpha: 84px;
+    --heading-bravo: 36px;
+  }
 }
