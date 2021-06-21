@@ -43,21 +43,12 @@
 }
 
 .heading--delta {
-  font-family: opensans, sans-serif;
+  font-family: cabin, sans-serif;
   font-size: var(--heading-delta);
-  color: var(--charcoal);
+  color: var(--grey);
   line-height: 1.5;
   margin: 0px;
   font-weight: 600;
-}
-
-.heading--echo {
-  font-family: cabin, sans-serif;
-  font-size: var(--heading-echo);
-  color: var(--dark-green);
-  line-height: 2;
-  margin: 0px;
-  font-weight: 700;
 }
 
 p {

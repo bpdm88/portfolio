@@ -12,7 +12,6 @@
   --heading-bravo: 22px;
   --heading-charlie: 30px;
   --heading-delta: 20px;
-  --heading-echo: 24px;
   --standard: 16px;
 
   /* spacing */
@@ -23,6 +22,10 @@
   --spacing-sm: 10px;
   --spacing-xs: 5px;
   --font-spacing: 12px;
+}
+
+body {
+  background-color: #fafdff;
 }
 
 @media only screen and (min-width: 768px) {

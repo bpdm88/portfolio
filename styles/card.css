@@ -1,0 +1,48 @@
+.card {
+  width: 340px;
+  height: 500px;
+  border-radius: 25px;
+  box-shadow: 0px 8px 24px rgb(223, 223, 223);
+  padding-left: var(--spacing-md);
+  padding-right: var(--spacing-md);
+  padding-top: var(--spacing-lg);
+  padding-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: var(--spacing-md);
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.card-title h3 {
+  padding-left: var(--spacing-md);
+}
+
+.card-description {
+  padding-top: var(--spacing-xs);
+  padding-bottom: var(--spacing-xs);
+  text-align: center;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+}
+
+.card-btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    width: 360px;
+  }
+}

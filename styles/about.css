@@ -1,19 +1,21 @@
 .about {
-  /* margin: var(--spacing-xl); */
-  margin: var(--spacing-xs);
+  margin-left: var(--spacing-sm);
+  margin-right: var(--spacing-sm);
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .about-content {
-  /* display: flex; */
   margin-top: var(--spacing-md);
 }
 
 .about-me {
-  /* width: 45%; */
-  padding: var(--spacing-lg);
+  padding-left: var(--spacing-lg);
+  padding-right: var(--spacing-lg);
+  padding-bottom: var(--spacing-lg);
   text-align: justify;
 }
 
@@ -33,11 +35,9 @@
   height: 125px;
   border-radius: 50%;
   margin-bottom: var(--spacing-lg);
-  margin-right: var(--spacing-lg);
 }
 
 .about-skills {
-  /* width: 55%; */
   display: grid;
   grid-template-columns: 120px 120px 120px;
   grid-template-rows: auto;
@@ -71,8 +71,16 @@
   .about {
     margin: var(--spacing-xl);
   }
+
+  .about-me {
+    padding-top: var(--spacing-lg);
+  }
   .profile {
     flex-direction: row;
+  }
+
+  .profile-photo {
+    margin-right: var(--spacing-md);
   }
 
   .about-skills {
@@ -80,5 +88,8 @@
     grid-template-columns: 120px 120px 120px 120px;
     grid-template-rows: auto;
     justify-content: center;
+  }
+  .profile {
+    margin-bottom: var(--spacing-xs);
   }
 }
