@@ -1,32 +1,27 @@
 @font-face {
-  font-family: cabin;
-  src: url(../public/assets/fonts/Cabin-Bold.ttf) format('truetype');
+  font-family: inter;
+  src: url(../public/assets/fonts/Inter-Regular.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: nunito-bold;
-  src: url(../public/assets/fonts/Nunito-ExtraBold.ttf) format('truetype');
+  font-family: inter-bold;
+  src: url(../public/assets/fonts/Inter-Bold.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: opensans-bold;
-  src: url(../public/assets/fonts/OpenSans-SemiBold.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: opensans;
-  src: url(../public/assets/fonts/OpenSans-Light.ttf) format('truetype');
+  font-family: inter-semi;
+  src: url(../public/assets/fonts/Inter-SemiBold.ttf) format('truetype');
 }
 
 .heading--alpha {
-  font-family: cabin, sans-serif;
+  font-family: inter-semi, sans-serif;
   font-size: var(--heading-alpha);
   color: var(--white);
   margin: 0px;
 }
 
 .heading--bravo {
-  font-family: cabin, sans-serif;
+  font-family: inter-semi, sans-serif;
   font-size: var(--heading-bravo);
   color: var(--white);
   line-height: 1.5;
@@ -34,7 +29,7 @@
 }
 
 .heading--charlie {
-  font-family: cabin, sans-serif;
+  font-family: inter-semi, sans-serif;
   font-size: var(--heading-charlie);
   color: var(--charcoal);
   line-height: 1.5;
@@ -43,19 +38,19 @@
 }
 
 .heading--delta {
-  font-family: cabin, sans-serif;
+  font-family: inter-bold, sans-serif;
   font-size: var(--heading-delta);
-  color: var(--grey);
+  color: var(--charcoal);
   line-height: 1.5;
   margin: 0px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 p {
-  font-family: opensans, sans-serif;
+  font-family: inter, sans-serif;
   font-size: var(--heading-standard);
   color: var(--charcoal);
   line-height: 1.6;
   margin: 0px;
-  font-weight: 600;
+  font-weight: 400;
 }

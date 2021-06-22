@@ -11,11 +11,10 @@
   --heading-alpha: 44px;
   --heading-bravo: 22px;
   --heading-charlie: 30px;
-  --heading-delta: 20px;
+  --heading-delta: 18px;
   --standard: 16px;
 
   /* spacing */
-
   --spacing-xl: 40px;
   --spacing-lg: 30px;
   --spacing-md: 20px;
@@ -31,6 +30,6 @@ body {
 @media only screen and (min-width: 768px) {
   :root {
     --heading-alpha: 84px;
-    --heading-bravo: 36px;
+    --heading-bravo: 32px;
   }
 }

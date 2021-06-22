@@ -1,0 +1,19 @@
+.quote {
+  padding: var(--spacing-xl);
+  background-color: var(--dark-green);
+}
+
+.quote-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: var(--spacing-lg);
+  padding-bottom: var(--spacing-lg);
+}
+
+.contact-quote {
+  text-align: center;
+  font-family: inter-bold;
+  font-size: 28px;
+  color: var(--white);
+  width: 600px;
+}

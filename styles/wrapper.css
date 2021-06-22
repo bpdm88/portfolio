@@ -1,0 +1,22 @@
+/* .wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  max-width: 340px;
+  margin: auto;
+}
+
+@media screen and (min-width: 750px) {
+  .wrapper {
+    max-width: 1000px;
+    margin: auto;
+    padding: var(--spacing-xs);
+  }
+} */
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    max-width: 1250px;
+    margin: auto;
+  }
+}

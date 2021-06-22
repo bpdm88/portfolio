@@ -1,5 +1,6 @@
 @import 'settings.css';
 @import 'typography.css';
+@import 'wrapper.css';
 @import 'header.css';
 @import 'banner.css';
 @import 'button-primary.css';
@@ -8,3 +9,5 @@
 @import 'about.css';
 @import 'projects.css';
 @import 'card.css';
+@import 'quote.css';
+@import 'contact.css';

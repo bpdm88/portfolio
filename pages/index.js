@@ -4,6 +4,8 @@ import Header from '../components/header'
 import Banner from '../components/banner'
 import About from '../components/about'
 import Projects from '../components/projects'
+import Quote from '../components/quote'
+import Contact from '../components/contact'
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <Banner />
       <About />
       <Projects />
+      <Quote />
+      <Contact />
     </div>
   )
 }

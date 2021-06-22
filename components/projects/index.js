@@ -2,7 +2,7 @@ import Card from './card'
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section className="projects wrapper">
       <h3 className="heading--charlie">Projects</h3>
       <div className="projects-container">
         <Card
