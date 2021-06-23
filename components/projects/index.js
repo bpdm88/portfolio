@@ -3,7 +3,10 @@ import Card from './card'
 const Projects = () => {
   return (
     <section className="projects wrapper">
-      <h3 className="heading--charlie">Projects</h3>
+      <div className="title">
+        <img src="/assets/img/icons/title.svg" className="title-logo" />
+        <h3 className="heading--charlie">Check Out Some Of My Work</h3>
+      </div>
       <div className="projects-container">
         <Card
           icon="shelf"

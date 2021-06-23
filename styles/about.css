@@ -1,21 +1,15 @@
 .about {
-  margin-left: var(--spacing-sm);
-  margin-right: var(--spacing-sm);
-  margin-top: var(--spacing-lg);
-  margin-bottom: var(--spacing-lg);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding-top: var(--spacing-xl);
+  text-align: center;
+}
+
+.title-logo {
+  visibility: hidden;
 }
 
 .about-content {
-  margin-top: var(--spacing-md);
-}
-
-.about-me {
-  padding-left: var(--spacing-lg);
-  padding-right: var(--spacing-lg);
-  padding-bottom: var(--spacing-lg);
+  padding-top: var(--spacing-md);
+  padding-bottom: var(--spacing-md);
   text-align: justify;
 }
 
@@ -23,11 +17,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: var(--spacing-lg);
-}
-
-.profile-titles {
-  margin-top: var(--spacing-md);
+  text-align: justify;
+  padding-bottom: var(--spacing-lg);
 }
 
 .profile-photo {
@@ -38,6 +29,7 @@
 }
 
 .about-skills {
+  padding-top: var(--spacing-lg);
   display: grid;
   grid-template-columns: 120px 120px 120px;
   grid-template-rows: auto;
@@ -49,48 +41,52 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .about {
-    display: block;
-    margin: var(--spacing-md);
-  }
-  .about-content {
-    display: flex;
-  }
-
-  .about-me {
-    width: 45%;
-  }
-
   .about-skills {
-    width: 55%;
-    padding: var(--spacing-xl);
+    grid-template-columns: 120px 120px 120px 120px;
+    grid-template-rows: auto;
+  }
+
+  .about-content {
+    padding-top: var(--spacing-xl);
   }
 }
 
 @media only screen and (min-width: 1024px) {
+  .title {
+    display: flex;
+  }
+
+  .title-logo {
+    visibility: visible;
+  }
   .about {
-    padding-top: var(--spacing-xl);
-    padding-bottom: var(--spacing-xl);
+    margin-top: var(--spacing-md);
+    text-align: left;
+  }
+  .about-content {
+    display: flex;
+    padding-top: var(--spacing-lg);
   }
 
   .about-me {
     padding-top: var(--spacing-lg);
+    padding-right: var(--spacing-xl);
+    width: 50%;
   }
   .profile {
     flex-direction: row;
+    padding-bottom: var(--spacing-sm);
   }
 
   .profile-photo {
     margin-right: var(--spacing-md);
   }
 
-  .about-skills {
-    padding: var(--spacing-md);
-    grid-template-columns: 120px 120px 120px 120px;
-    grid-template-rows: auto;
-    justify-content: center;
-  }
   .profile {
     margin-bottom: var(--spacing-xs);
+  }
+
+  .about-skills {
+    padding-left: var(--spacing-xl);
   }
 }

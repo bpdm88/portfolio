@@ -13,6 +13,11 @@
   src: url(../public/assets/fonts/Inter-SemiBold.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: inter-light;
+  src: url(../public/assets/fonts/Inter-Light.ttf) format('truetype');
+}
+
 .heading--alpha {
   font-family: inter-semi, sans-serif;
   font-size: var(--heading-alpha);
@@ -53,4 +58,11 @@ p {
   line-height: 1.6;
   margin: 0px;
   font-weight: 400;
+}
+
+@media only screen and (min-width: 1024px) {
+  .heading--charlie {
+    width: 275px;
+    margin-left: var(--spacing-md);
+  }
 }

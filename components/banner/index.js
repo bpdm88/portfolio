@@ -13,7 +13,7 @@ const Banner = () => {
             clean and efficent code.
           </p>
           <div className="slide-in-btn">
-            <Button primary={true}>Learn More</Button>
+            <Button type="primary">Learn More</Button>
           </div>
         </div>
       </div>

@@ -1,7 +1,10 @@
 const About = () => {
   return (
     <section className="about wrapper">
-      <h3 className="heading--charlie">About</h3>
+      <div className="title">
+        <img src="/assets/img/icons/title.svg" className="title-logo" />
+        <h3 className="heading--charlie">Here's A Little Bit About Me</h3>
+      </div>
       <div className="about-content">
         <div className="about-me">
           <div className="profile">

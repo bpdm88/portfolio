@@ -15,10 +15,10 @@ const Card = ({ icon, title, description, link, code }) => {
       </div>
       <div className="card-btns">
         <a href={link} target="_blank">
-          <Button primary={false}>Live</Button>
+          <Button type="secondary">Live</Button>
         </a>
         <a href={code} target="_blank">
-          <Button primary={false}>Code</Button>
+          <Button type="secondary">Code</Button>
         </a>
       </div>
     </div>
