@@ -1,5 +1,3 @@
-import Button from '../button/primary'
-
 const Contact = () => {
   return (
     <section className="quote">

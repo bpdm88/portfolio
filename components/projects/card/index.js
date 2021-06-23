@@ -1,4 +1,4 @@
-import Button from '../../button/primary'
+import Button from '../../button'
 
 const Card = ({ icon, title, description, link, code }) => {
   return (
