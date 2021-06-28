@@ -1,0 +1,22 @@
+.footer {
+  padding: var(--spacing-xl);
+  border-top: solid 1px rgb(219, 219, 219);
+  background-color: var(--charcoal);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-socials {
+  padding-top: var(--spacing-md);
+  padding-bottom: var(--spacing-md);
+  display: flex;
+  align-items: center;
+}
+
+.footer img {
+  padding-left: var(--spacing-md);
+  padding-right: var(--spacing-md);
+  padding-top: var(--spacing-md);
+
+  cursor: pointer;
+}

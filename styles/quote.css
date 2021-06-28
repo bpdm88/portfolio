@@ -1,5 +1,5 @@
 .quote {
-  padding: var(--spacing-xl);
+  padding: var(--spacing-md);
   background-color: var(--dark-green);
 }
 
@@ -13,7 +13,17 @@
 .contact-quote {
   text-align: center;
   font-family: inter-bold;
-  font-size: 28px;
+  font-size: 18px;
   color: var(--white);
-  width: 600px;
+  width: 340px;
+}
+
+@media only screen and (min-width: 768px) {
+  .quote {
+    padding: var(--spacing-xl);
+  }
+  .contact-quote {
+    font-size: 28px;
+    width: 600px;
+  }
 }

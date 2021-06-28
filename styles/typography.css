@@ -40,6 +40,9 @@
   line-height: 1.5;
   margin: 0px;
   font-weight: 600;
+  text-align: center;
+  padding-left: var(--spacing-xs);
+  padding-right: var(--spacing-xs);
 }
 
 .heading--delta {
@@ -64,5 +67,6 @@ p {
   .heading--charlie {
     width: 275px;
     margin-left: var(--spacing-md);
+    text-align: left;
   }
 }

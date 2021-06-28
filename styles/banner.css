@@ -38,6 +38,16 @@
   animation-delay: 0.5s;
 }
 
+.wave {
+  position: absolute;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.test-btn {
+  z-index: 1000;
+}
+
 @keyframes slide-in {
   0% {
     -webkit-transform: translateX(-1000px);

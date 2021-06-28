@@ -6,6 +6,7 @@ import About from '../components/about'
 import Projects from '../components/projects'
 import Quote from '../components/quote'
 import Contact from '../components/contact'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Projects />
       <Quote />
       <Contact />
+      <Footer />
     </div>
   )
 }

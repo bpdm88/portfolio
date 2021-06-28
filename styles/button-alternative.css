@@ -22,7 +22,7 @@
   padding-right: var(--spacing-lg);
   padding-top: var(--spacing-sm);
   padding-bottom: var(--spacing-sm);
-  background-color: var(--charcoal);
+  background-color: var(--dark-green);
   border: none;
   border-radius: 8px;
   font-family: inter-bold;
@@ -32,5 +32,5 @@
 }
 
 .btn-tertiary:hover {
-  background-color: var(--dark-green);
+  background-color: var(--charcoal);
 }

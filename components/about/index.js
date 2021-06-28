@@ -29,18 +29,42 @@ const About = () => {
           </div>
         </div>
         <div className="about-skills">
-          <img src="/assets/img/icons/js.svg" className="logo" />
-          <img src="/assets/img/icons/react.svg" className="logo" />
-          <img src="/assets/img/icons/redux.svg" className="logo" />
-          <img src="/assets/img/icons/next.svg" className="logo" />
-          <img src="/assets/img/icons/html.svg" className="logo" />
-          <img src="/assets/img/icons/css.svg" className="logo" />
-          <img src="/assets/img/icons/tailwind.svg" className="logo" />
-          <img src="/assets/img/icons/node.svg" className="logo" />
-          <img src="/assets/img/icons/vscode.svg" className="logo" />
-          <img src="/assets/img/icons/git.svg" className="logo" />
-          <img src="/assets/img/icons/npm.svg" className="logo" />
-          <img src="/assets/img/icons/mongo.svg" className="logo" />
+          <div className="test arrow">
+            <img src="/assets/img/icons/js.svg" className="logo" />
+          </div>
+          <div className="test arrow">
+            <img src="/assets/img/icons/react.svg" className="logo" />
+          </div>
+          <div className="test arrow">
+            <img src="/assets/img/icons/redux.svg" className="logo" />
+          </div>
+          <div className="test arrow">
+            <img src="/assets/img/icons/next.svg" className="logo" />
+          </div>
+          <div className="test arrow">
+            <img src="/assets/img/icons/html.svg" className="logo" />
+          </div>
+          <div className="test arrow">
+            <img src="/assets/img/icons/css.svg" className="logo" />
+          </div>
+          <div className="test arrow">
+            <img src="/assets/img/icons/tailwind.svg" className="logo" />
+          </div>
+          <div className="test arrow">
+            <img src="/assets/img/icons/node.svg" className="logo" />
+          </div>
+          <div className="test arrow">
+            <img src="/assets/img/icons/vscode.svg" className="logo" />
+          </div>
+          <div className="test arrow">
+            <img src="/assets/img/icons/git.svg" className="logo" />
+          </div>
+          <div className="test arrow">
+            <img src="/assets/img/icons/npm.svg" className="logo" />
+          </div>
+          <div className="test arrow">
+            <img src="/assets/img/icons/mongo.svg" className="logo" />
+          </div>
         </div>
       </div>
     </section>

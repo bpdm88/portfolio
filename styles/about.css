@@ -1,6 +1,26 @@
+.test {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  box-shadow: 0px 6px 10px rgb(223, 223, 223);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: var(--spacing-md);
+  background-color: var(--white);
+}
+
+.arrow {
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+}
+.arrow:hover {
+  top: -20px;
+}
+
 .about {
   padding-top: var(--spacing-xl);
-  text-align: center;
 }
 
 .title-logo {
@@ -29,7 +49,7 @@
 }
 
 .about-skills {
-  padding-top: var(--spacing-lg);
+  /* padding-top: var(--spacing-lg); */
   display: grid;
   grid-template-columns: 120px 120px 120px;
   grid-template-rows: auto;
@@ -37,7 +57,7 @@
 }
 
 .logo {
-  margin: var(--spacing-md);
+  /* margin: var(--spacing-md); */
 }
 
 @media only screen and (min-width: 768px) {
@@ -61,7 +81,6 @@
   }
   .about {
     margin-top: var(--spacing-md);
-    text-align: left;
   }
   .about-content {
     display: flex;
