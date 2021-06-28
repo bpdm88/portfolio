@@ -26,11 +26,12 @@
 }
 
 .heading--bravo {
-  font-family: inter-semi, sans-serif;
+  font-family: inter-bold, sans-serif;
   font-size: var(--heading-bravo);
   color: var(--white);
   line-height: 1.5;
   margin: 0px;
+  letter-spacing: -1px;
 }
 
 .heading--charlie {
