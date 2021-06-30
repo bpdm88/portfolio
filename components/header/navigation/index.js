@@ -1,11 +1,19 @@
+import { Link } from 'react-scroll'
+
 const Navigation = () => {
   return (
     <div>
       <nav>
         <ul className="nav">
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <Link to="about" spy={true} smooth={true}>
+            <li>About</li>
+          </Link>
+          <Link to="projects" spy={true} smooth={true}>
+            <li>Projects</li>
+          </Link>
+          <Link to="contact" spy={true} smooth={true}>
+            <li>Contact</li>
+          </Link>
         </ul>
       </nav>
     </div>

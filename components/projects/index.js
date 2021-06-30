@@ -2,7 +2,7 @@ import Card from './card'
 
 const Projects = () => {
   return (
-    <section className="projects wrapper">
+    <section className="projects wrapper" id="projects">
       <div className="title">
         <img src="/assets/img/icons/title.svg" className="title-logo" />
         <h3 className="heading--charlie">Check Out Some Of My Work</h3>

@@ -2,7 +2,7 @@ import Button from '../button'
 
 const Contact = () => {
   return (
-    <section className="contact wrapper">
+    <section className="contact wrapper" id="contact">
       <div className="title">
         <img src="/assets/img/icons/title.svg" className="title-logo" />
         <h3 className="heading--charlie">Getting In Touch With Me</h3>

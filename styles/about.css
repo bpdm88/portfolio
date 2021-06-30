@@ -1,4 +1,4 @@
-.test {
+.skill-card {
   width: 100px;
   height: 100px;
   border-radius: 8px;
@@ -24,7 +24,7 @@
 }
 
 .title-logo {
-  visibility: hidden;
+  display: none;
 }
 
 .about-content {
@@ -49,21 +49,17 @@
 }
 
 .about-skills {
-  /* padding-top: var(--spacing-lg); */
   display: grid;
   grid-template-columns: 120px 120px 120px;
   grid-template-rows: auto;
   justify-content: center;
 }
 
-.logo {
-  /* margin: var(--spacing-md); */
-}
-
 @media only screen and (min-width: 768px) {
   .about-skills {
     grid-template-columns: 120px 120px 120px 120px;
     grid-template-rows: auto;
+    padding-top: var(--spacing-lg);
   }
 
   .about-content {
@@ -77,7 +73,7 @@
   }
 
   .title-logo {
-    visibility: visible;
+    display: block;
   }
   .about {
     margin-top: var(--spacing-md);
@@ -107,5 +103,6 @@
 
   .about-skills {
     padding-left: var(--spacing-xl);
+    padding-top: 0;
   }
 }

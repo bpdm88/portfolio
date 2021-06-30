@@ -26,19 +26,15 @@
   fill: currentColor;
 }
 
-.nav {
-  display: flex;
-}
-
 .nav li {
   list-style-type: none;
-  padding-left: var(--spacing-sm);
-  padding-right: var(--spacing-sm);
+  padding-top: var(--spacing-md);
+  padding-bottom: var(--spacing-md);
 }
 
 .nav li {
   font-family: inter-semi;
-  font-size: 16px;
+  font-size: 18px;
   color: var(--white);
   cursor: pointer;
 }
@@ -61,5 +57,16 @@
 
   .icon:hover {
     color: var(--dark-green);
+  }
+
+  .nav {
+    display: flex;
+  }
+
+  .nav li {
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: var(--spacing-sm);
+    padding-right: var(--spacing-sm);
   }
 }

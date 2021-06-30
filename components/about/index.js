@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="about wrapper">
+    <section className="about wrapper" id="about">
       <div className="title">
         <img src="/assets/img/icons/title.svg" className="title-logo" />
         <h3 className="heading--charlie">Here's A Little Bit About Me</h3>
@@ -29,40 +29,40 @@ const About = () => {
           </div>
         </div>
         <div className="about-skills">
-          <div className="test arrow">
+          <div className="skill-card arrow">
             <img src="/assets/img/icons/js.svg" className="logo" />
           </div>
-          <div className="test arrow">
+          <div className="skill-card arrow">
             <img src="/assets/img/icons/react.svg" className="logo" />
           </div>
-          <div className="test arrow">
+          <div className="skill-card arrow">
             <img src="/assets/img/icons/redux.svg" className="logo" />
           </div>
-          <div className="test arrow">
+          <div className="skill-card arrow">
             <img src="/assets/img/icons/next.svg" className="logo" />
           </div>
-          <div className="test arrow">
+          <div className="skill-card arrow">
             <img src="/assets/img/icons/html.svg" className="logo" />
           </div>
-          <div className="test arrow">
+          <div className="skill-card arrow">
             <img src="/assets/img/icons/css.svg" className="logo" />
           </div>
-          <div className="test arrow">
+          <div className="skill-card arrow">
             <img src="/assets/img/icons/tailwind.svg" className="logo" />
           </div>
-          <div className="test arrow">
+          <div className="skill-card arrow">
             <img src="/assets/img/icons/node.svg" className="logo" />
           </div>
-          <div className="test arrow">
+          <div className="skill-card arrow">
             <img src="/assets/img/icons/vscode.svg" className="logo" />
           </div>
-          <div className="test arrow">
+          <div className="skill-card arrow">
             <img src="/assets/img/icons/git.svg" className="logo" />
           </div>
-          <div className="test arrow">
+          <div className="skill-card arrow">
             <img src="/assets/img/icons/npm.svg" className="logo" />
           </div>
-          <div className="test arrow">
+          <div className="skill-card arrow">
             <img src="/assets/img/icons/mongo.svg" className="logo" />
           </div>
         </div>

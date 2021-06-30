@@ -1,6 +1,14 @@
+import { Link } from 'react-scroll'
 import Button from '../button'
 
 const Banner = () => {
+  // const onClick = () => {
+  //   window.scrollTo({
+  //     top: 735,
+  //     behavior: 'smooth'
+  //   })
+  // }
+
   return (
     <div className="banner">
       <div className="welcome-container">
@@ -12,9 +20,11 @@ const Banner = () => {
             I'm a software developer from Bristol who enjoys building great user experiences with
             clean and efficent code.
           </p>
-          <div className="slide-in-btn test-btn">
-            <Button type="primary">Learn More</Button>
-          </div>
+          <Link to="about" spy={true} smooth={true}>
+            <div className="slide-in-btn test-btn">
+              <Button type="primary">Learn More</Button>
+            </div>
+          </Link>
         </div>
       </div>
       {/* <div>
