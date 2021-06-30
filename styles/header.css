@@ -2,7 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--spacing-sm);
+  padding-top: var(--spacing-sm);
+  padding-bottom: var(--spacing-sm);
+  padding-left: var(--spacing-sm);
+  padding-right: var(--spacing-md);
   background-color: var(--dark-green);
 }
 
@@ -21,6 +24,23 @@
 .icon {
   color: var(--white);
   fill: currentColor;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  list-style-type: none;
+  padding-left: var(--spacing-sm);
+  padding-right: var(--spacing-sm);
+}
+
+.nav li {
+  font-family: inter-semi;
+  font-size: 16px;
+  color: var(--white);
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
