@@ -11,6 +11,12 @@
 
 @media screen and (min-width: 1024px) {
   .wrapper {
-    max-width: 1250px;
+    max-width: 1150px;
+  }
+
+  @media screen and (min-width: 1600px) {
+    .wrapper {
+      max-width: 1250px;
+    }
   }
 }

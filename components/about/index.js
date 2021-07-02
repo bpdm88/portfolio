@@ -8,23 +8,24 @@ const About = () => {
       <div className="about-content">
         <div className="about-me">
           <div className="profile">
-            <img src="/assets/img/profile.jpg" className="profile-photo" />
+            <img src="/assets/img/photos/profile.jpg" className="profile-photo" />
             <div>
               <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                After working in financial services for a number of years I transitioned into
+                working in tech as a software developer after attending the Develop Me tech
+                accelerator course. I’m currently employed as a front-end developer working with
+                JavaScipt technologies primarily React.
               </p>
             </div>
           </div>
           <div>
             <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum."
+              I became interested into learning the skills required to be a software developer after
+              experiences within the development process. Initially as an end user for a web app
+              which was built for the team I was a part of and then working as a business analyst
+              for a savings platform. I love learning about new technologies and have focused my
+              efforts on JavaScript since becoming a developer, additionally I enjoy trying to
+              improve my understanding and application of design.
             </p>
           </div>
         </div>

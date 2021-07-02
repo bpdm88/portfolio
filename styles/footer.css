@@ -1,9 +1,13 @@
+.footer-logo {
+  display: none;
+}
+
 .footer {
   padding: var(--spacing-xl);
   border-top: solid 1px rgb(219, 219, 219);
   background-color: var(--charcoal);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .footer-socials {
@@ -13,10 +17,20 @@
   align-items: center;
 }
 
-.footer img {
+.footer-social {
   padding-left: var(--spacing-md);
   padding-right: var(--spacing-md);
   padding-top: var(--spacing-md);
-
   cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-logo {
+    display: block;
+  }
+
+  .footer {
+    justify-content: space-between;
+    align-items: center;
+  }
 }

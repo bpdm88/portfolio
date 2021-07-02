@@ -1,8 +1,4 @@
-import Logo from './logo'
-import Socials from './socials'
 import Navigation from './navigation'
-
-import { Link } from 'react-scroll'
 
 import { useState } from 'react'
 
@@ -11,7 +7,7 @@ const Header = () => {
   return (
     <div>
       <div className="header">
-        <Logo />
+        <img src="/assets/img/icons/bm-logo-green.svg" />
         <div className="web-menu">
           <Navigation />
         </div>
@@ -27,7 +23,6 @@ const Header = () => {
             </div>
           )}
         </div>
-        {/* <Socials /> */}
       </div>
     </div>
   )

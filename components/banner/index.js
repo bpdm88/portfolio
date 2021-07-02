@@ -2,13 +2,6 @@ import { Link } from 'react-scroll'
 import Button from '../button'
 
 const Banner = () => {
-  // const onClick = () => {
-  //   window.scrollTo({
-  //     top: 735,
-  //     behavior: 'smooth'
-  //   })
-  // }
-
   return (
     <div className="banner">
       <div className="welcome-container">
@@ -21,23 +14,12 @@ const Banner = () => {
             clean and efficent code.
           </p>
           <Link to="about" spy={true} smooth={true}>
-            <div className="slide-in-btn test-btn">
+            <div className="slide-in-btn">
               <Button type="primary">Learn More</Button>
             </div>
           </Link>
         </div>
       </div>
-      {/* <div>
-        <div className="cog-1 rotate">
-          <img src="/assets/img/cogs/cog1.svg" />
-        </div>
-        <div className="cog-2 reverse">
-          <img src="/assets/img/cogs/cog2.svg" />
-        </div>
-        <div className="cog-3 rotate">
-          <img src="/assets/img/cogs/cog3.svg" />
-        </div>
-      </div> */}
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319" className="wave">
         <path
           fill="#fbfeff"
